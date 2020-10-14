@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registro de Usuario"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ed_UsarioReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#FAF6F6"
+        android:textColorHint="#F8F3F3" />
+
+    <EditText
+        android:id="@+id/ed_passworkReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FAF6F6" />
+
+    <EditText
+        android:id="@+id/ed_NombreReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColorHint="#F4F3F3" />
+
+    <EditText
+        android:id="@+id/ed_ApellidoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Apellido"
+        android:inputType="text"
+        android:textColorHint="#FFFCFC" />
+
+    <EditText
+        android:id="@+id/ed_EdadReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Edad"
+        android:inputType="date"
+        android:textColorHint="#EFEBEB" />
+
+    <EditText
+        android:id="@+id/ed_GradoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Grado"
+        android:inputType="text"
+        android:textColorHint="#FDF8F8" />
+
+    <EditText
+        android:id="@+id/ed_ColegioReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Colegio"
+        android:inputType="text"
+        android:textColorHint="#FFFBFB" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="466dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

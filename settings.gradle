@@ -1,0 +1,5 @@
+include ':ojdbc6'
+include ':mylibrary'
+include ':app'
+include ':app', ':com.oracle.bots.client.sdk.android.core-20.3.1', ':com.oracle.bots.client.sdk.android.ui-20.3.1'
+rootProject.name = "Reciclon"
